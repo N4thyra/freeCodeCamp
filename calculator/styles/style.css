@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #02AAB0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 300px;
+  min-height: 395px;
+  margin: 0 auto;
+  background-color: #02AAB0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.log {
+  background-color: #00c9cd;
+  margin: 1% auto 0 auto;
+  border-top: 10px solid #02AAB0;;
+  border-left: 10px solid #02AAB0;;
+  border-right: 10px solid #02AAB0;;
+  box-sizing: border-box;
+  height: 50px;
+  width: 95.4%;
+  overflow: auto;
+}
+
+.screen {
+  font-size: 2em;
+  padding: 0 10px;
+  overflow-x: auto;
+  margin: auto;
+  background-color: #00c9cd;
+  font-weight: 800;
+  color: white;
+  text-align: right;
+  line-height: 50px;
+  height: 50px;
+  width: 82%;
+}
+
+.body {
+  text-align: center;
+  line-height: 4em;
+}
+
+.group-buttons {
+  margin-left: 15px;
+  line-height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.group-buttons > div {
+  margin: 2px;
+  background-color: white;
+  height: 50px;
+  width: 22.3%;
+  float: left;
+  border-radius: 5px;
+}
+
+.group-buttons > div:active {
+  background-color: #00CDAC;
+  width: 22.3%;
+}
+
+.inside-box {
+  font-size: 1em;
+  margin-left: 10px;
+  padding: 0px;
+  text-align: left;
+}
+
+.inside-box:nth-of-type(2n) {
+  background-color: #00CDAC;
+}
+
+#clear {
+  margin-top: 10px;
+  width: 30.5%;
+  background-color: #f45042;
+}
+
+#clear:active {
+  background-color: #f44141;
+}
+
+#reset {
+  margin-top: 10px;
+  width: 30.5%;
+  background-color: #d0f441;
+}
+
+#reset:active {
+  background-color: #a3f441;
+}
+
+#arrow {
+  margin-top: 10px;
+  background-color: #f4ee41;
+  width: 30%;
+}
+
+#arrow:active {
+  background-color: #f4d941;
+}
+
+#result {
+  width: 22.3%;
+  height: 50px;
+  background-color:  #4179f4;
+  color: white;
+  font-weight: bold;
+}
+
+#result:active {
+  background-color: #4158f4;
+}
